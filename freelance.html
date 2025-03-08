@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .services, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service, .testimonial {
+            width: 30%;
+            padding: 10px;
+            background: #e2e2e2;
+            border-radius: 5px;
+            text-align: center;
+            margin: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Freelancer Portfolio</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Services Offered</h2>
+    <div class="services">
+        <div class="service">
+            <img src="https://th.bing.com/th/id/OIP.Jg35DTU8xEFi-BbUaql9CQHaEI?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Web Development">
+            <h3>Web Development</h3>
+            <p>Building responsive and modern websites.</p>
+        </div>
+        <div class="service">
+            <img src="https://th.bing.com/th/id/OIP.c1NjBQh1EVeIe1WVy1DJ4AHaHe?pid=ImgDet&w=189&h=190&c=7&dpr=1.3" alt="Graphic Design">
+            <h3>Graphic Design</h3>
+            <p>Creating stunning visuals for your brand.</p>
+        </div>
+        <div class="service">
+            <img src="https://th.bing.com/th/id/OIP.q1xy_OBLTZjnI-3ft0DAGQHaE8?w=249&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"alt="Content Writing">
+            <h3>Content Writing</h3>
+            <p>Writing engaging and SEO-friendly content.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Great work! Highly recommend."</p>
+            <p>- ajay</p>
+        </div>
+        <div class="testimonial">
+            <p>"Professional and timely delivery."</p>
+            <p>- bharth</p>
+        </div>
+        <div class="testimonial">
+            <p>"Exceeded my expectations!"</p>
+            <p>- sagaa</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or would like to discuss a project, feel free to reach out!</p> 
+    <p>Email: <a href="mailto:maheshicon2005@gmail.com">maheshicon2005@gmail.com</a></p> 
+        <p>Phone: <a href="tel:+91 6789723889">+91 6789723889 </a></p>
